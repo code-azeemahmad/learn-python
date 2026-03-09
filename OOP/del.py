@@ -6,7 +6,7 @@ s1 = student("azeem")
 
 del s1  # s1 is not defined
 
-print(s1.name)
+# print(s1.name)
 
 '''
 Private(like)
@@ -26,3 +26,14 @@ class Account:
 acc1 = Account("123", "abc")
 print(acc1.acc_no)
 acc1.reset_pass()
+
+class Person:
+    __name = "anonymous"
+    def __hello(self):      # private method
+        print("hello", self.__name)
+    def welcome(self):
+        self.__hello()
+    
+p1 = Person()
+# print(p1.__name)
+p1.welcome()
