@@ -28,3 +28,12 @@
 # >>> tea_varieties[1:3] = ["hazelnut", "cashew"]
 # >>> tea_varieties
 # ['black', 'hazelnut', 'cashew', 'white']
+
+# insert nothing (delete)
+# >>> tea_varieties[1:2]                         
+# ['test']
+# >>> tea_varieties[1:3]
+# ['test', 'test']
+# >>> tea_varieties[1:3] = []
+# >>> tea_varieties          
+# ['black', 'hazelnut', 'cashew', 'white']
