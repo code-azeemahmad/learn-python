@@ -93,7 +93,6 @@
 # >>> y = range(0, 10)
 # >>> print(y)
 # range(0, 10)
-# >>> 
 # >>> squared_nums = [x** 2 for x in range(0, 10)]    
 # >>> squared_nums                                
 # [0, 1, 4, 9, 16, 25, 36, 49, 64, 81]
