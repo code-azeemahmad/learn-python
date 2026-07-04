@@ -21,3 +21,25 @@
 # >>> things["night"] = "romantic" 
 # >>> things
 # {'sky': 'blue', 'night': 'romantic', 'wall': 'white'}
+
+# >>> things
+# {'sky': 'blue', 'night': 'romantic', 'wall': 'white'}
+# >>> for t in things:
+# ...     print(t)
+# ...
+# sky
+# night
+# wall
+# >>> for t in things:
+# ...     print(t, things[t])
+# ...
+# sky blue
+# night romantic
+# wall white
+
+# >>> for key, value in things.items():
+# ...     print(key,":",value)         
+# ... 
+# sky : blue
+# night : romantic
+# wall : white
