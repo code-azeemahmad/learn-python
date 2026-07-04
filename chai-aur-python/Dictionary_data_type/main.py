@@ -15,3 +15,9 @@
 #     print(things["ski"])
 #           ~~~~~~^^^^^^^
 # KeyError: 'ski'
+
+# >>> things
+# {'sky': 'blue', 'night': 'black', 'wall': 'white'}
+# >>> things["night"] = "romantic" 
+# >>> things
+# {'sky': 'blue', 'night': 'romantic', 'wall': 'white'}
