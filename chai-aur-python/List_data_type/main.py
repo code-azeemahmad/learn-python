@@ -75,4 +75,16 @@
 # ['black', 'green', 'cashew', 'white']
 
 
+# >>> tea_varieties  
+# ['black', 'green', 'cashew', 'white']
+# >>> tea_varieties_copy = tea_varieties    // both share same reference
+# >>> tea_varieties_copy = tea_varieties.copy() // breaks the link, creates a new list
+# >>> tea_varieties_copy                       
+# ['black', 'green', 'cashew', 'white']
+# >>> tea_varieties_copy.append("imposter")
+# >>> tea_varieties
+# ['black', 'green', 'cashew', 'white']
+# >>> tea_varieties_copy
+# ['black', 'green', 'cashew', 'white', 'imposter']
+
 
