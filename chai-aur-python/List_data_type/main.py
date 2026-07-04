@@ -67,5 +67,12 @@
 # >>> tea_varieties                     
 # ['black', 'hazelnut', 'cashew', 'white']
 
+# >>> tea_varieties.remove("hazelnut")
+# >>> tea_varieties
+# ['black', 'cashew', 'white']
+# >>> tea_varieties.insert(1, "green")
+# >>> tea_varieties
+# ['black', 'green', 'cashew', 'white']
+
 
 
