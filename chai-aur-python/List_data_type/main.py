@@ -87,4 +87,16 @@
 # >>> tea_varieties_copy
 # ['black', 'green', 'cashew', 'white', 'imposter']
 
-
+# >>> squared_nums = [1, 2, 3, 4, 5, 6,  7,  8, 9, 10]
+# >>> range(10)
+# range(0, 10)
+# >>> y = range(0, 10)
+# >>> print(y)
+# range(0, 10)
+# >>> 
+# >>> squared_nums = [x** 2 for x in range(0, 10)]    
+# >>> squared_nums                                
+# [0, 1, 4, 9, 16, 25, 36, 49, 64, 81]
+# >>> cube_num = [y**3 for y in range(0, 5)]
+# >>> cube_num
+# [0, 1, 8, 27, 64]
