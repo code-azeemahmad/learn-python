@@ -49,4 +49,23 @@
 # >>> for tea in tea_varieties:
 # ...     print(tea, end="-")  
 # ... 
-# black-hazelnut-cashew-white->>> 
+# # black-hazelnut-cashew-white->>> 
+
+
+# >>> tea_varieties            
+# ['black', 'hazelnut', 'cashew', 'white']
+# >>> if "oolong" in tea_varieties:     
+# ...     print("oolong tea is present")
+# ... 
+# >>> tea_varieties.append("oolong")
+# >>> if "oolong" in tea_varieties:     
+# ...     print("oolong tea is present")
+# ... 
+# oolong tea is present
+# >>> tea_varieties.pop()               
+# 'oolong'
+# >>> tea_varieties                     
+# ['black', 'hazelnut', 'cashew', 'white']
+
+
+
