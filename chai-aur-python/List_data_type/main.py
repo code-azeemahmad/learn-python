@@ -37,3 +37,16 @@
 # >>> tea_varieties[1:3] = []
 # >>> tea_varieties          
 # ['black', 'hazelnut', 'cashew', 'white']
+
+
+# >>> for tea in tea_varieties:
+# ...     print(tea)
+# ... 
+# black
+# hazelnut
+# cashew
+# white
+# >>> for tea in tea_varieties:
+# ...     print(tea, end="-")  
+# ... 
+# black-hazelnut-cashew-white->>> 
