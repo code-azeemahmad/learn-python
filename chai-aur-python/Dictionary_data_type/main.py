@@ -43,3 +43,10 @@
 # sky : blue
 # night : romantic
 # wall : white
+
+# >>> if "sky" in things:
+# ...     print("The sky is blue!")
+# ...
+# The sky is blue!
+# >>> print(len(things))
+# 3
