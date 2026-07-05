@@ -17,3 +17,23 @@
 #     teaTypes[0] = "lemon"
 #     ~~~~~~~~^^^
 # TypeError: 'tuple' object does not support item assignment
+
+# >>> len(teaTypes)
+# 3
+# >>> moreTea = ("oolong", "earl grey")
+# >>> moreTea
+# ('oolong', 'earl grey')
+# >>> combineTea = teaTypes + moreTea
+# >>> combineTea
+# ('black', 'green', 'pink', 'oolong', 'earl grey')
+
+# >>> if "green" in combineTea:
+# ...     print("I have green tea")
+# ... 
+# I have green tea
+
+# >>> moreTea = ("herbal", "green", "herbal")
+# >>> moreTea.count("herbal")                
+# 2
+# >>> moreTea.count("herb")  
+0
