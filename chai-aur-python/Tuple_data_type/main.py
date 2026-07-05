@@ -36,4 +36,16 @@
 # >>> moreTea.count("herbal")                
 # 2
 # >>> moreTea.count("herb")  
-0
+
+# tuple unpacking (sequence unpacking)
+# >>> teaTypes 
+# ('black', 'green', 'pink')
+# >>> (box1, box2, box3) = teaTypes
+# >>> box1
+# 'black'
+# >>> box2
+# 'green'
+# >>> box3
+# 'pink'
+
+# >>> ("hello", (1, 2, 3), "world")
