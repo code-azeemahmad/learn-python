@@ -70,3 +70,17 @@
 # >>> things_copy = things.copy()
 # >>> things_copy
 # {'sky': 'blue'}
+
+# >>> tea_shop = {
+# ... "tea": {"lemon": "citric", "honey": "sweet", "ginger": "zesty"},
+# ... "bag": {"plastic": "blue", "paper": "white", "wood": "brown"},
+# ... "flower": {"jasmine": "white", "rose": "red", "lotus": "white"}
+# ... }
+# {'tea': {'lemon': 'citric', 'honey': 'sweet', 'ginger': 'zesty'}, 'bag': {'plastic': 'blue', 'paper': 'white', 'wood': 'brown'}, 'flower': {'jasmine': 'white', 'rose': 'red', 'lotus': 'white'}}
+# >>> tea_shop["tea"]
+# {'lemon': 'citric', 'honey': 'sweet', 'ginger': 'zesty'}
+# >>> tea_shop["tea"]["honey"]
+# 'sweet'
+# >>> tea_shop["tea"]["honey"] = ["sugar"]
+# >>> tea_shop["tea"]["honey"]            
+# ['sugar']
