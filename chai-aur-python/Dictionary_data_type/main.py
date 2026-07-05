@@ -37,6 +37,7 @@
 # night romantic
 # wall white
 
+
 # >>> for key, value in things.items():
 # ...     print(key,":",value)         
 # ... 
@@ -91,3 +92,9 @@
 # >>> squared_num.clear()
 # >>> squared_num        
 # {}
+
+# >>> keys = {"lemon", "honey", "apple"}
+# >>> default_value = "delicious"
+# >>> new_dict = dict.fromkeys(keys, default_value)
+# >>> new_dict                                     
+# {'honey': 'delicious', 'lemon': 'delicious', 'apple': 'delicious'}
