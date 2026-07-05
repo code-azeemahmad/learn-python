@@ -50,3 +50,19 @@
 # The sky is blue!
 # >>> print(len(things))
 # 3
+
+
+# >>> things["hello"] = "world"
+# >>> print(things)
+# {'sky': 'blue', 'night': 'black', 'wall': 'white', 'hello': 'world'}
+# >>> things.pop("wall")
+# 'white'
+# >>> things                                                     
+# {'sky': 'blue', 'night': 'black', 'hello': 'world'}
+# >>> things.popitem()
+# ('hello', 'world')
+# >>> things          
+# {'sky': 'blue', 'night': 'black'}
+# >>> del things["night"]
+# >>> things
+# {'sky': 'blue'}
