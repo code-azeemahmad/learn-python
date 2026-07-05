@@ -66,3 +66,7 @@
 # >>> del things["night"]
 # >>> things
 # {'sky': 'blue'}
+
+# >>> things_copy = things.copy()
+# >>> things_copy
+# {'sky': 'blue'}
